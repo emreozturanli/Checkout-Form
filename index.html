@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ee0531a33.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <section class="container section1">
+            <div class="product1 product">
+                <div class="section__image">
+                    <img src="img/photo1.png" title="product1" alt="product1">
+                </div>
+                <div class="section__details">
+                    <div class="details__text">
+                        <h3>Vintage Backbag</h3>
+                        <p><span>$54.99</span> <del>$94.99</del></p>
+                    </div>
+                    
+                    <div class="quantity">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>1</span>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product2 product">
+                <div class="section__image">
+                    <img src="img/photo2.png" title="product2" alt="product2">
+                </div>
+                <div class="section__details">
+                    <div class="details__text">
+                    <h3>Vintage Backbag</h3>
+                    <p><span>$74.99</span>  <del>$124.99</del></p>
+                </div>
+                    <div class="quantity">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>1</span>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="ship summary__div">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+                <div class="total summary__div">
+                    <p>Total</p>
+                    <p>$148.98</p>
+                </div>
+            </div>
+
+        </section>
+        <form action="" class="container">
+            <div class="contact">
+                <h3>Contact information</h3>
+                <div class="email__container input_wrapper">
+                    <label for="email">Email</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="email" required placeholder="Enter your email...">
+                    </div>
+                </div>
+
+                <div class="phone__container input_wrapper">
+                    <label for="phone">Phone</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-phone-alt"></i>
+                        <input type="tel" name="tel" id="tel" required placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="shipping">
+                <h3>Shipping address</h3>
+                <div class="name__container input_wrapper">
+                    <label for="name">Full name</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" required placeholder="Enter your full name...">
+                    </div>
+                </div>
+                <div class="address__container input_wrapper">
+                    <label for="address">Adress</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-home"></i>
+                        <input type="text" name="address" id="address" required placeholder="Enter your address...">
+                    </div>
+                </div>
+                <div class="city__container input_wrapper">
+                    <label for="city">City</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-city"></i>
+                        <input type="text" name="city" id="city" required placeholder="Enter your city...">
+                    </div>
+                </div>
+                <div class="contry__container input_wrapper country-box">
+                    <label for="country">Country</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-globe-europe"></i>
+                        <select name="country" id="country">
+                            <option value="Turkey">Turkey</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Finland">Finland</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="post__container input_wrapper post-box">
+                    <label for="post">Post Code</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-mail-bulk"></i>
+                        <input type="number" name="post" id="post" required placeholder="Enter your postal code...">
+                    </div>
+                </div>
+                <div class="check__container input_wrapper ">
+                    <div class="check-field">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">See this information next time</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn__container">
+                <button type="submit" >Continue</button>
+            </div>
+        </form> 
+    </main>
+
+</body>
+
+</html>
