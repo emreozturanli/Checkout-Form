@@ -1,6 +1,6 @@
 # Checkout-Form
 
-[Browser Preview](https://emreozturanli.github.io/Checkout-Form/)
+[Browser Preview](https://emreozturanli.github.io/Checkout-Form/)     or see the gif below 👇
 
 <hr>
 
@@ -19,3 +19,6 @@
 * Javascript functionalities was added,
 * You can change the amount and remove the item,
 * While doing this total price is always changing to correct value.
+
+
+![gif](https://github.com/emreozturanli/Checkout-Form/blob/master/checkout-form.gif)
