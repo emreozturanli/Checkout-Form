@@ -12,3 +12,10 @@
 * used most of the input elements in CSS,
 * placed a submit button in form,
 * used mobile first approach.
+
+
+### Last update 🔻
+
+* Javascript functionalities was added,
+* You can change the amount and remove the item,
+* While doing this total price is always changing to correct value.
